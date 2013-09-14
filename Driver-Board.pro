@@ -1,4 +1,4 @@
-update=Sat 14 Sep 2013 06:23:44 PM CEST
+update=Sat 14 Sep 2013 07:07:49 PM CEST
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -39,3 +39,5 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/robert/Arduino/KiCAD/LIBS/my_parts
+LibName13=/home/robert/Arduino/KiCAD/KiCad-Logos/Logos/OSHW-logo/lib/OSHW-logo
+LibName14=/home/robert/Arduino/KiCAD/KiCad-Logos/Logos/LED_smile/lib/LED_smile
