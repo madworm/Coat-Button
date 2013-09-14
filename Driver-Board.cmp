@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-09-13 BZR 4316)-product date = Sat 14 Sep 2013 06:24:35 PM CEST
+
+BeginCmp
+TimeStamp = /52343B4E;
+Reference = C1;
+ValeurCmp = 4.7µF;
+IdModule  = MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52348D75;
+Reference = IC1;
+ValeurCmp = ATTINY45-S;
+IdModule  = MADW__SO8_200mil_wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /52343C9C;
+Reference = JP1;
+ValeurCmp = AVR_ISP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52348C84;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = MADW__SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5234931E;
+Reference = R17;
+ValeurCmp = R;
+IdModule  = MADW__R0805;
+EndCmp
+
+EndListe
