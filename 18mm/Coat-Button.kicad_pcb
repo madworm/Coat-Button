@@ -938,9 +938,9 @@
     )
   )
 
-  (module OSHW-logo_silkscreen_3mm (layer B.Cu) (tedit 0) (tstamp 5235E227)
+  (module OSHW-logo_silkscreen_3mm (layer B.Cu) (tedit 523B175C) (tstamp 5235E227)
     (at 68 62)
-    (fp_text reference G*** (at 0 -1.59004) (layer B.SilkS) hide
+    (fp_text reference G1 (at 0 -1.59004) (layer B.SilkS) hide
       (effects (font (size 0.13462 0.13462) (thickness 0.0254)) (justify mirror))
     )
     (fp_text value OSHW-logo_silkscreen_3mm (at 0 1.59004) (layer B.SilkS) hide
@@ -1018,10 +1018,10 @@
       (xy -0.90932 1.3462)) (layer B.SilkS) (width 0.00254))
   )
 
-  (module LED_smile_silkscreen_3mm (layer B.Cu) (tedit 0) (tstamp 5235E251)
+  (module LED_smile_silkscreen_3mm (layer B.Cu) (tedit 523B1762) (tstamp 5235E251)
     (at 81.5 62)
-    (fp_text reference G*** (at 0 -1.7272) (layer B.SilkS) hide
-      (effects (font (size 0.0381 0.0381) (thickness 0.00762)) (justify mirror))
+    (fp_text reference G2 (at 0 -1.7272) (layer B.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.00762)) (justify mirror))
     )
     (fp_text value LED_smile_silkscreen_3mm (at 0 1.7272) (layer B.SilkS) hide
       (effects (font (size 0.0381 0.0381) (thickness 0.00762)) (justify mirror))
