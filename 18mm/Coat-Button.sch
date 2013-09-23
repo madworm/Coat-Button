@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Coat-Button - Driver Board"
+Title "Coat-Button"
 Date "15 Sep 2013"
 Rev "0.11"
 Comp "2013 - blog.spitzenpfeil.org"
