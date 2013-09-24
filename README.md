@@ -4,6 +4,9 @@ Coat-Button
 
 LAYOUT FILES: Sewable blinky button for coats.
 
+Make sure to check all branches!
+
+
 You will find code for this project in [this](https://github.com/madworm/ATtiny_projects/tree/master/13/Coat-Button) repository.
 
 
