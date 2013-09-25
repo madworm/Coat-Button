@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:my_parts
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:my_parts
 LIBS:Coat-Button-cache
 EELAYER 24 0
 EELAYER END
@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Coat-Button"
-Date "15 Sep 2013"
-Rev "0.11"
+Date "25 Sep 2013"
+Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -297,7 +297,7 @@ $EndComp
 Wire Wire Line
 	2950 4750 4650 4750
 Wire Wire Line
-	2950 5950 4650 5950
+	2950 5950 5100 5950
 $Comp
 L GND #PWR02
 U 1 1 5235BA2D
@@ -470,45 +470,8 @@ Wire Wire Line
 	5000 1600 5000 1800
 Wire Wire Line
 	5000 1800 4950 1800
-$Comp
-L R R9
-U 1 1 5235BA3A
-P 2900 3000
-F 0 "R9" V 3000 3000 40  0000 C CNN
-F 1 "15" V 2900 3000 40  0000 C CNN
-F 2 "" V 2830 3000 30  0000 C CNN
-F 3 "" H 2900 3000 30  0000 C CNN
-	1    2900 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R10
-U 1 1 5235BA3B
-P 2900 3100
-F 0 "R10" V 2800 3100 40  0000 C CNN
-F 1 "15" V 2907 3101 40  0000 C CNN
-F 2 "" V 2830 3100 30  0000 C CNN
-F 3 "" H 2900 3100 30  0000 C CNN
-	1    2900 3100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3150 3000 3450 3000
-Wire Wire Line
-	3450 3100 3150 3100
-Wire Wire Line
-	2650 3000 2600 3000
-Wire Wire Line
-	2600 3000 2600 3100
-Wire Wire Line
-	2600 3100 2650 3100
-Text Label 2550 3050 2    60   ~ 0
-sink
-Wire Wire Line
-	2550 3050 2600 3050
-Connection ~ 2600 3050
-Text Label 4650 5950 0    60   ~ 0
-sink
 Wire Wire Line
 	4950 1900 5000 1900
 $Comp
@@ -567,4 +530,39 @@ F 3 "" H 3650 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5450 3100
+NoConn ~ 3450 3100
+Text Label 3150 3000 2    60   ~ 0
+gate
+$Comp
+L MOSFET_N Q1
+U 1 1 5242FD5E
+P 4800 6400
+F 0 "Q1" H 5000 6690 60  0000 R CNN
+F 1 "DMG1012T" H 5000 6200 60  0000 R CNN
+F 2 "SOT523" H 4800 6300 60  0000 C CNN
+F 3 "" H 4800 6400 60  0000 C CNN
+	1    4800 6400
+	1    0    0    -1  
+$EndComp
+Text Label 4750 6400 2    60   ~ 0
+gate
+Wire Wire Line
+	4750 6400 4800 6400
+Wire Wire Line
+	5100 5950 5100 6100
+$Comp
+L GND #PWR010
+U 1 1 5242FE02
+P 5100 6600
+F 0 "#PWR010" H 5100 6600 30  0001 C CNN
+F 1 "GND" H 5100 6530 30  0001 C CNN
+F 2 "" H 5100 6600 60  0000 C CNN
+F 3 "" H 5100 6600 60  0000 C CNN
+	1    5100 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6500 5100 6600
+Text Label 5100 5950 0    60   ~ 0
+drain
 $EndSCHEMATC

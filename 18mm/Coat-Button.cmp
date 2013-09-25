@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-13 BZR 4316)-product date = Sun 15 Sep 2013 05:07:50 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-09-24 BZR 4347)-product date = Wed 25 Sep 2013 05:11:28 PM CEST
 
 BeginCmp
 TimeStamp = /5235BA31;
@@ -106,6 +106,13 @@ IdModule  = MADW__SIL-1;
 EndCmp
 
 BeginCmp
+TimeStamp = /5242FD5E;
+Reference = Q1;
+ValeurCmp = DMG1012T;
+IdModule  = MADW__SOT523;
+EndCmp
+
+BeginCmp
 TimeStamp = /5235BA1D;
 Reference = R1;
 ValeurCmp = 200;
@@ -158,20 +165,6 @@ BeginCmp
 TimeStamp = /5235BA24;
 Reference = R8;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5235BA3A;
-Reference = R9;
-ValeurCmp = 15;
-IdModule  = MADW__R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5235BA3B;
-Reference = R10;
-ValeurCmp = 15;
 IdModule  = MADW__R0603;
 EndCmp
 
