@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Coat-Button"
-Date "25 Sep 2013"
-Rev "0.21"
+Date "03 Oct 2013"
+Rev "0.22"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -711,5 +711,127 @@ Wire Wire Line
 Wire Wire Line
 	7950 5950 8000 5950
 Text Notes 2500 5700 0    39   ~ 0
-Adjust R for about 10mA per LED
+* Adjust R for about 10mA per LED\n\n(*) Rx.2 alternate footprint for single-color LED. Use instead of Rx and Rx.1
+$Comp
+L R R1.2
+U 1 1 524DA6D3
+P 2600 5100
+F 0 "R1.2" V 2680 5100 40  0000 C CNN
+F 1 "200" V 2607 5101 40  0000 C CNN
+F 2 "" V 2530 5100 30  0000 C CNN
+F 3 "" H 2600 5100 30  0000 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2.2
+U 1 1 524DA6E7
+P 3300 5100
+F 0 "R2.2" V 3380 5100 40  0000 C CNN
+F 1 "200" V 3307 5101 40  0000 C CNN
+F 2 "" V 3230 5100 30  0000 C CNN
+F 3 "" H 3300 5100 30  0000 C CNN
+	1    3300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3.2
+U 1 1 524DA6F9
+P 4000 5100
+F 0 "R3.2" V 4080 5100 40  0000 C CNN
+F 1 "200" V 4007 5101 40  0000 C CNN
+F 2 "" V 3930 5100 30  0000 C CNN
+F 3 "" H 4000 5100 30  0000 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4.2
+U 1 1 524DA704
+P 4700 5100
+F 0 "R4.2" V 4780 5100 40  0000 C CNN
+F 1 "200" V 4707 5101 40  0000 C CNN
+F 2 "" V 4630 5100 30  0000 C CNN
+F 3 "" H 4700 5100 30  0000 C CNN
+	1    4700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5.2
+U 1 1 524DA70F
+P 5400 5100
+F 0 "R5.2" V 5480 5100 40  0000 C CNN
+F 1 "200" V 5407 5101 40  0000 C CNN
+F 2 "" V 5330 5100 30  0000 C CNN
+F 3 "" H 5400 5100 30  0000 C CNN
+	1    5400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6.2
+U 1 1 524DA71A
+P 6100 5100
+F 0 "R6.2" V 6180 5100 40  0000 C CNN
+F 1 "200" V 6107 5101 40  0000 C CNN
+F 2 "" V 6030 5100 30  0000 C CNN
+F 3 "" H 6100 5100 30  0000 C CNN
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7.2
+U 1 1 524DA725
+P 6800 5100
+F 0 "R7.2" V 6880 5100 40  0000 C CNN
+F 1 "200" V 6807 5101 40  0000 C CNN
+F 2 "" V 6730 5100 30  0000 C CNN
+F 3 "" H 6800 5100 30  0000 C CNN
+	1    6800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8.2
+U 1 1 524DA730
+P 7500 5100
+F 0 "R8.2" V 7580 5100 40  0000 C CNN
+F 1 "200" V 7507 5101 40  0000 C CNN
+F 2 "" V 7430 5100 30  0000 C CNN
+F 3 "" H 7500 5100 30  0000 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4850 2600 4850
+Wire Wire Line
+	2500 5350 2600 5350
+Wire Wire Line
+	3200 5350 3300 5350
+Wire Wire Line
+	3200 4850 3300 4850
+Wire Wire Line
+	3900 4850 4000 4850
+Wire Wire Line
+	3900 5350 4000 5350
+Text Notes 2650 5000 0    39   ~ 0
+(*)
+Wire Wire Line
+	4600 4850 4700 4850
+Wire Wire Line
+	5300 4850 5400 4850
+Wire Wire Line
+	6000 4850 6100 4850
+Wire Wire Line
+	4600 5350 4700 5350
+Wire Wire Line
+	5300 5350 5400 5350
+Wire Wire Line
+	6000 5350 6100 5350
+Wire Wire Line
+	6700 4850 6800 4850
+Wire Wire Line
+	6700 5350 6800 5350
+Wire Wire Line
+	7400 4850 7500 4850
+Wire Wire Line
+	7400 5350 7500 5350
 $EndSCHEMATC

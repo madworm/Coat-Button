@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-09-24 BZR 4347)-product date = Wed 25 Sep 2013 04:59:34 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-10-02 BZR 4359)-product date = Thu 03 Oct 2013 07:20:26 PM CEST
 
 BeginCmp
 TimeStamp = /5235BA31;
@@ -122,113 +122,169 @@ EndCmp
 BeginCmp
 TimeStamp = /5235BA1D;
 Reference = R1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524041F9;
 Reference = R1.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA6D3;
+Reference = R1.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA1E;
 Reference = R2;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404204;
 Reference = R2.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA6E7;
+Reference = R2.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA1F;
 Reference = R3;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240420F;
 Reference = R3.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA6F9;
+Reference = R3.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA20;
 Reference = R4;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240421A;
 Reference = R4.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA704;
+Reference = R4.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA21;
 Reference = R5;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240422F;
 Reference = R5.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA70F;
+Reference = R5.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA22;
 Reference = R6;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240423A;
 Reference = R6.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA71A;
+Reference = R6.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA23;
 Reference = R7;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404245;
 Reference = R7.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA725;
+Reference = R7.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA24;
 Reference = R8;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404250;
 Reference = R8.1;
-ValeurCmp = 600;
+ValeurCmp = 200;
 IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA730;
+Reference = R8.2;
+ValeurCmp = 200;
+IdModule  = MADW__R0603;
 EndCmp
 
 EndListe
