@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-10-07 BZR 4378)-product")
+(kicad_pcb (version 3) (host pcbnew "(2013-10-11 BZR 4379)-product")
 
   (general
     (links 80)
     (no_connects 0)
-    (area 65.100934 52.140934 85.009066 78.500001)
+    (area 65.949999 52.949999 84.050001 71.050001)
     (thickness 1.6)
     (drawings 13)
     (tracks 412)
@@ -194,6 +194,11 @@
       (net 3 GND))
     (pad 3 smd rect (at 0 -0.75) (size 0.55 0.65) (layers F.Cu F.Paste F.Mask)
       (net 23 Net-<Q2-Pad3>))
+    (model smd/smd_transistors/sot23.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.5 0.6 0.5))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B02) (tstamp 523487A3)
@@ -223,6 +228,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 11 Net-<LED3-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B04) (tstamp 523487EB)
@@ -252,6 +262,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 315) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 13 Net-<LED4-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B06) (tstamp 5234878B)
@@ -281,6 +296,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 15 Net-<LED5-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B08) (tstamp 52348803)
@@ -310,6 +330,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 225) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 17 Net-<LED6-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B0A) (tstamp 523487BB)
@@ -339,6 +364,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 180) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 19 Net-<LED7-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6B00) (tstamp 524D6850)
@@ -368,6 +398,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 45) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 9 Net-<LED2-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6AFE) (tstamp 5235CBB4)
@@ -397,6 +432,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 135) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 Net-<LED8-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__CHIPLED-0805-dual (layer F.Cu) (tedit 524D6AFC) (tstamp 52348773)
@@ -426,6 +466,11 @@
       (net 26 VCC))
     (pad 3 smd rect (at -1 0.475 90) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 7 Net-<LED1-Pad3>))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__SOT523 (layer B.Cu) (tedit 524D487E) (tstamp 5247A882)
@@ -459,6 +504,11 @@
       (net 3 GND))
     (pad 3 smd rect (at 0 0.75 180) (size 1.05 0.65) (drill (offset 0.25 0)) (layers B.Cu B.Paste B.Mask)
       (net 22 Net-<Q1-Pad3>))
+    (model smd/smd_transistors/sot23.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.5 0.6 0.5))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__C0805 (layer B.Cu) (tedit 52405373) (tstamp 5235CE8B)
@@ -481,6 +531,11 @@
       (net 26 VCC))
     (pad 2 smd rect (at 0.94996 0 270) (size 1.1 1.4986) (layers B.Cu B.Paste B.Mask)
       (net 3 GND))
+    (model smd/capacitors/C0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__PIN_ARRAY_3x2_1.27mm (layer F.Cu) (tedit 52399D97) (tstamp 5235CBE4)
@@ -547,6 +602,11 @@
       (net 25 SCK))
     (pad 10 smd rect (at 1.5 1) (size 1 0.25) (layers B.Cu B.Paste B.Mask)
       (net 26 VCC))
+    (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_qfn/dfn10_3x3.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__SIL-1 (layer F.Cu) (tedit 5235BAC7) (tstamp 5234917F)
@@ -943,6 +1003,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 67.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 7 Net-<LED1-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 524042FE) (tstamp 52404233)
@@ -971,6 +1036,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 22.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 8 Net-<LED2-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404397) (tstamp 52404243)
@@ -999,6 +1069,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 337.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 10 Net-<LED3-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 524043EC) (tstamp 52404253)
@@ -1027,6 +1102,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 292.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 12 Net-<LED4-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404464) (tstamp 52404263)
@@ -1055,6 +1135,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 247.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 14 Net-<LED5-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 5240445F) (tstamp 52404273)
@@ -1083,6 +1168,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 202.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 16 Net-<LED6-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404458) (tstamp 52404283)
@@ -1111,6 +1201,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 157.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 19 Net-<LED7-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 5240445A) (tstamp 52404293)
@@ -1139,6 +1234,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 157.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 18 Net-<LED7-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404455) (tstamp 524042A3)
@@ -1167,6 +1267,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 112.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 20 Net-<LED8-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 5240425D) (tstamp 524046D8)
@@ -1195,6 +1300,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 2 smd rect (at 0.5 0 67.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 6 Net-<LED1-Pad2>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 524042EB) (tstamp 524046E8)
@@ -1223,6 +1333,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 22.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 9 Net-<LED2-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404395) (tstamp 524046F8)
@@ -1251,6 +1366,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 337.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 11 Net-<LED3-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 524043DC) (tstamp 52404708)
@@ -1279,6 +1399,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 292.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 13 Net-<LED4-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404462) (tstamp 52404718)
@@ -1307,6 +1432,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 247.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 15 Net-<LED5-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 5240445D) (tstamp 52404728)
@@ -1335,6 +1465,11 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 202.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 17 Net-<LED6-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0402 (layer F.Cu) (tedit 52404453) (tstamp 52404738)
@@ -1363,12 +1498,15 @@
       (net 23 Net-<Q2-Pad3>))
     (pad 2 smd rect (at 0.5 0 112.5) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 21 Net-<LED8-Pad3>))
+    (model smd/resistors/r_0402.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7FB) (tstamp 525254E3)
     (at 77.37 56.35 337.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA6D3)
     (attr smd)
     (fp_text reference R1.2 (at -0.01 1.45 337.5) (layer B.SilkS) hide
@@ -1385,12 +1523,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 247.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 6 Net-<LED1-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7F9) (tstamp 525254ED)
     (at 80.72 59.66 292.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA6E7)
     (attr smd)
     (fp_text reference R2.2 (at -0.01 1.45 292.5) (layer B.SilkS) hide
@@ -1407,12 +1548,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 202.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 8 Net-<LED2-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7F6) (tstamp 525254F7)
     (at 80.63 64.35 247.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA6F9)
     (attr smd)
     (fp_text reference R3.2 (at -0.01 1.45 247.5) (layer B.SilkS) hide
@@ -1429,12 +1573,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 157.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 10 Net-<LED3-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7F4) (tstamp 52525501)
     (at 77.35 67.66 202.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA704)
     (attr smd)
     (fp_text reference R4.2 (at -0.01 1.45 202.5) (layer B.SilkS) hide
@@ -1451,12 +1598,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 112.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 12 Net-<LED4-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7F1) (tstamp 5252550B)
     (at 72.66 67.7 157.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA70F)
     (attr smd)
     (fp_text reference R5.2 (at -0.01 1.45 157.5) (layer B.SilkS) hide
@@ -1473,12 +1623,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 67.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 14 Net-<LED5-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7EF) (tstamp 5252574B)
     (at 69.32 64.37 112.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA71A)
     (attr smd)
     (fp_text reference R6.2 (at -0.01 1.45 112.5) (layer B.SilkS) hide
@@ -1495,12 +1648,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 22.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 16 Net-<LED6-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7EC) (tstamp 52525740)
     (at 69.33 59.68 67.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA725)
     (attr smd)
     (fp_text reference R7.2 (at -0.01 1.45 67.5) (layer B.SilkS) hide
@@ -1517,12 +1673,15 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 337.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 18 Net-<LED7-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MADW__R0603 (layer B.Cu) (tedit 524DA7E9) (tstamp 52525529)
     (at 72.6 56.33 22.5)
-    (descr CHIPLED)
-    (tags CHIPLED)
     (path /524DA730)
     (attr smd)
     (fp_text reference R8.2 (at -0.01 1.45 22.5) (layer B.SilkS) hide
@@ -1539,6 +1698,11 @@
       (net 22 Net-<Q1-Pad3>))
     (pad 1 smd rect (at -0.7468 0.0075 292.5) (size 0.79756 0.79756) (layers B.Cu B.Paste B.Mask)
       (net 20 Net-<LED8-Pad2>))
+    (model smd/resistors/R0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module floral-shape_silkscreen_2mm (layer F.Cu) (tedit 524EF466) (tstamp 5257351D)
