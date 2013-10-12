@@ -3,7 +3,7 @@
   (general
     (links 80)
     (no_connects 0)
-    (area 65.949999 52.949999 84.050001 71.050001)
+    (area 65.100934 52.140934 85.009066 78.500001)
     (thickness 1.6)
     (drawings 13)
     (tracks 412)
@@ -231,7 +231,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -265,7 +265,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -299,7 +299,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -333,7 +333,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -367,7 +367,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -401,7 +401,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -435,7 +435,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -469,7 +469,7 @@
     (model ../../../../../../Arduino/KiCAD/LIBS/3D/walter/smd_leds/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
