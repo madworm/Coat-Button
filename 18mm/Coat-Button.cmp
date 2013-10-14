@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-10-02 BZR 4359)-product date = Thu 03 Oct 2013 07:20:26 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-10-13 BZR 4383)-product date = Mon 14 Oct 2013 05:22:26 PM CEST
 
 BeginCmp
 TimeStamp = /5235BA31;
@@ -19,6 +19,20 @@ TimeStamp = /5235BA34;
 Reference = JP1;
 ValeurCmp = AVR_ISP;
 IdModule  = MADW__PIN_ARRAY_3x2_1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1412;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = MADW__R0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C0CD5;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = MADW__R0402;
 EndCmp
 
 BeginCmp
