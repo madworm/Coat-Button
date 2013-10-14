@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-10-13 BZR 4383)-product date = Mon 14 Oct 2013 05:22:26 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-10-14 BZR 4386)-product date = Mon 14 Oct 2013 08:57:24 PM CEST
 
 BeginCmp
 TimeStamp = /5235BA31;
 Reference = C1;
-ValeurCmp = 4.7µF;
+ValeurCmp = 100nF;
 IdModule  = MADW__C0805;
 EndCmp
 
