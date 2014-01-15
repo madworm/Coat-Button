@@ -4,301 +4,301 @@ BeginCmp
 TimeStamp = /5235BA31;
 Reference = C1;
 ValeurCmp = 100nF;
-IdModule  = MADW__C0805;
+IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235CCE9;
 Reference = IC1;
 ValeurCmp = MADW__ATTINY13-MM;
-IdModule  = MADW__MLF10;
+IdModule  = my_parts:MADW__MLF10;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA34;
 Reference = JP1;
 ValeurCmp = AVR_ISP;
-IdModule  = MADW__PIN_ARRAY_3x2_1.27mm;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /525C1412;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /525C0CD5;
 Reference = JP3;
 ValeurCmp = JUMPER;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403AB9;
 Reference = LED1;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403ACD;
 Reference = LED2;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403AE1;
 Reference = LED3;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403AF5;
 Reference = LED4;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403B09;
 Reference = LED5;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403B1D;
 Reference = LED6;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403B31;
 Reference = LED7;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /52403B45;
 Reference = LED8;
 ValeurCmp = MADW__BI-LED;
-IdModule  = MADW__CHIPLED-0805-dual;
+IdModule  = my_parts:MADW__CHIPLED-0805-dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BB3E;
 Reference = P1;
 ValeurCmp = CONN_1;
-IdModule  = MADW__SIL-1;
+IdModule  = my_parts:MADW__SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BB52;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = MADW__SIL-1;
+IdModule  = my_parts:MADW__SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BB66;
 Reference = P3;
 ValeurCmp = CONN_1;
-IdModule  = MADW__SIL-1;
+IdModule  = my_parts:MADW__SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BB7A;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = MADW__SIL-1;
+IdModule  = my_parts:MADW__SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5242F7C2;
 Reference = Q1;
 ValeurCmp = DMG1012T;
-IdModule  = MADW__SOT523;
+IdModule  = my_parts:MADW__SOT523;
 EndCmp
 
 BeginCmp
 TimeStamp = /5242F7D6;
 Reference = Q2;
 ValeurCmp = DMG1012T;
-IdModule  = MADW__SOT523;
+IdModule  = my_parts:MADW__SOT523;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA1D;
 Reference = R1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524041F9;
 Reference = R1.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA6D3;
 Reference = R1.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA1E;
 Reference = R2;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404204;
 Reference = R2.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA6E7;
 Reference = R2.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA1F;
 Reference = R3;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240420F;
 Reference = R3.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA6F9;
 Reference = R3.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA20;
 Reference = R4;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240421A;
 Reference = R4.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA704;
 Reference = R4.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA21;
 Reference = R5;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240422F;
 Reference = R5.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA70F;
 Reference = R5.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA22;
 Reference = R6;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5240423A;
 Reference = R6.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA71A;
 Reference = R6.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA23;
 Reference = R7;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404245;
 Reference = R7.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA725;
 Reference = R7.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5235BA24;
 Reference = R8;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52404250;
 Reference = R8.1;
 ValeurCmp = 200;
-IdModule  = MADW__R0402;
+IdModule  = my_parts:MADW__R0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /524DA730;
 Reference = R8.2;
 ValeurCmp = 200;
-IdModule  = MADW__R0603;
+IdModule  = my_parts:MADW__R0603;
 EndCmp
 
 EndListe

@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-10-14 BZR 4386)-product")
+(kicad_pcb (version 3) (host pcbnew 52ca2e1517-product)
 
   (general
     (links 86)
     (no_connects 0)
-    (area 65.100934 52.140934 85.009066 78.500001)
+    (area 65.914267 52.949999 84.210019 78.500001)
     (thickness 1.6)
     (drawings 17)
     (tracks 418)
