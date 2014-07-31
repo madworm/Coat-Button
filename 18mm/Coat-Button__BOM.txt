@@ -1,0 +1,29 @@
+
+Bill of materials:
+------------------
+
+C1		100nF, 0805, 10V
+IC1		ATTINY13-MM, DFN10
+JP1		3x2-pin header, 1.27mm (50mil), for pogo-pin programming adapter
+
+
+single colour variant:
+----------------------
+
+LED1-8		LED, 0805
+R1.2-R8.2	resistor (back), 0603, 4mA per LED max.
+
+
+triple-colour variant:
+----------------------
+
+LED1-8		bi-colour LED (e.g. red/green), 0805, [ebay]
+R1-R8		resistor (front), 0402, 4mA per LED max.
+R1.1-R1.8	resistor (front), 0402, 4mA per LED max.
+
+
+optional components:
+--------------------
+
+Q1,Q2	DMG1012T, SOT523
+
