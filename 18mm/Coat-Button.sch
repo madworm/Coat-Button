@@ -543,8 +543,8 @@ Text Label 7950 5950 1    60   ~ 0
 gate_a
 Text Label 8650 5850 1    60   ~ 0
 gate_b
-Text Notes 2250 5750 0    39   ~ 0
-* Adjust R for about 10mA per LED\n\n(*) Rx.2 alternate footprint for single-color LED. Use instead of Rx and Rx.1
+Text Notes 2250 5900 0    39   ~ 0
+* Adjust R for about 4mA per LED (10mA if transistors are used)\n\n(*) Rx.2 alternate footprint for single-color LED. Use instead of Rx and Rx.1
 $Comp
 L R R1.2
 U 1 1 524DA6D3
