@@ -1,0 +1,10 @@
+
+Bill of materials:
+------------------
+
+C1		4.7µF, 0805, 10V
+IC1		ATTINY13-MM, DFN10
+LED1-8		LED, 0402
+R1-R8		resistor, 0402, 4mA RMS per LED max.
+
+
